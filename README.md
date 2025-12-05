@@ -13,8 +13,11 @@ Nosso objetivo é facilitar a saída dos alunos durante o horário de aula, redu
 
 # Tipos de dados:
 Inteiro: Utilizamos para contar registros de liberação por mês,o dia, mês e hora que o responsável vai liberar seu filho, os índices de vetores e matrizes, senhas dos logins, tokens (códigos de verificação) e controle do menu.
+
 Cadeia: Guardamos nomes dos alunos, turmas e usuários, as escolas que tem ou está sendo aplicado o PaperFast e entradas nos logins.
+
 Logico: Nos ajuda a ver se os usuários estão corretos, se aquela escola foi achada e se aquela pessoa é um funcionário os responsável.
+
 Caracter: Entrada utilizada nas liberações.
 
 # Matriz:
@@ -50,7 +53,9 @@ Para funcionários:
 Como funciona:
 
 1 - Verifica se o usuário é válido.
+
 2 - Verifica senha individual.
+
 3 - Verifica token de segurança.
 
 # Estruturas do código:
@@ -89,20 +94,29 @@ Separamos es funções:
   - Segundo exemplo:
  
     escreva ("--------------------Agendar-Liberação--------------------\n")
+    
     se (cont < 10) {
+    
      escreva ("Qual o dia que precisa da liberação?\n")
+    
      escreva ("(ESCREVA SOMENTE NÚMEROS!)\n")
+    
      leia (dia [cont])
 
      escreva ("Qual mês a liberação precisa ocorrer?\n")
+    
      escreva ("(ESCREVA SOMENTE NÚMEROS!)\n")
+    
      leia (mes [cont])
 
      escreva ("Em qual hora seu filho vai sair?\n")
+    
      escreva ("(ESCREVA SOMENTE NÚMEROS!)\n")
+    
      leia (hora [cont])
 
      escreva ("Qual o token de segurança? \n")
+    
      leia (token)
 
 
@@ -132,17 +146,29 @@ Se digitado 2:
    --------------------Agendar-Liberação--------------------
 
    Qual o dia que precisa de liberação?
+   
    (ESCREVA SOMENTE NÚMEROS!)
+   
    21
+   
    QUAL O MÊS QUE A LIBERAÇÃO PRECISA OCORRER?
+   
    (ESCREVA SOMENTE NÚMEROS!)
+   
    3
+   
    Em qual hora seu filho vai sair?
+   
    (ESCREVA SOMENTE NÚMEROS!)
+   
    14
+   
    Qual o token de segurança?
+   
    1234
+   
    Liberação efetuada! DÊ ENTER PARA VOLTAR AO MENU!
+   
 
 # Tecnologias utilizadas:
 Esse projeto foi em Portugol, utilizando:
