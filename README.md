@@ -187,5 +187,14 @@ Esse projeto foi em Portugol, utilizando:
     * Funcionário acessa opções de consultar liberações (mensais ou diárias)
     
  6- O sistema fica em loop até o usuário clicar que quer sair.
-   
+
+# Melhorias futuras/limitações:
+
+- Não conseguimos colocar verificação de face id para os pais (portugol não deixa), mas seria necessário para aplicação.
+- Não fizemos um app (a ideia inicial), por conta que o portugol não consegue.
+- Salvar dados externamente seria necessário, mas ainda não conseguimos.
+- O sistema teria agir conforme calendário local e hora, mas isso é uma melhoria futura, agora é só utilizado para testes.
+- Adicionar diferentes turmas e múltiplas escolas reais, como melhorias futuras.
+
+# Foi isso!
 
