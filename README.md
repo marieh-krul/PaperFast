@@ -156,25 +156,36 @@ Esse projeto foi em Portugol, utilizando:
 
 # Como utilizar?
  1- Baixe esse arquivo: https://github.com/marieh-krul/PaperFast/commit/1aefa27c29c1176c38562e61e33ef07f797fa91c
+ 
  2- Abra ele nesse site: https://portugol.dev/
+ 
  3- Escolha se é responsável ou funcionário
+ 
  4- Sistema realiza o login com verificações:
+ 
   Login responsável (para utilizar se querer):
+  
   * Mariêh:
   Usuário: marieh.krul
   senha: 2103
   token: 1234
+
   * Brayan:
   Usuário: brayan.santos
   senha: 3344
   token: 1234
+
   Login funcionário (para utilizar se querer):
+  
   Escola: SESI
   senha: 8888
   Código de segurança: 6543
+  
  5- Após logins:
+ 
     * Responsável acessa funções de agendamento, liberação ou visualização
     * Funcionário acessa opções de consultar liberações (mensais ou diárias)
+    
  6- O sistema fica em loop até o usuário clicar que quer sair.
    
 
